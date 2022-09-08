@@ -16,7 +16,10 @@ class EnvironmentVariables {
   APP_PORT: number;
 
   @IsString()
-  DB_HOST: string;
+  DB_PROTOCOL: string;
+
+  @IsString()
+  DB_HOSTNAME: string;
 
   @IsNumber()
   DB_PORT: number;
